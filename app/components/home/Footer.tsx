@@ -6,23 +6,26 @@ export default function Footer() {
     <section>
       <p className="text-secondary text-sm pb-16">
         Inspiration gotten from{' '}
-        <Link href={'/'} className="text-foreground">
+        <Link href={'https://brittanychiang.com/'} className="text-foreground">
           Brittany Chang
         </Link>
         . Built with{' '}
-        <Link href={'/'} className="text-foreground">
+        <Link href={'https://nextjs.org/'} className="text-foreground">
           NextJS
         </Link>
         ,{' '}
-        <Link href={'/'} className="text-foreground">
+        <Link href={'https://tailwindcss.com/'} className="text-foreground">
           TailwindCSS
         </Link>
         , and{' '}
-        <Link href={'/'} className="text-foreground">
+        <Link
+          href={'https://www.typescriptlang.org/'}
+          className="text-foreground"
+        >
           Typescript
         </Link>
         . Hosted on{' '}
-        <Link href={'/'} className="text-foreground">
+        <Link href={'https://vercel.com/'} className="text-foreground">
           Vercel
         </Link>
         . Written by Nwachukwu Marshall

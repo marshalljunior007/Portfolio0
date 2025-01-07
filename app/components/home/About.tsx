@@ -25,9 +25,15 @@ export default function About() {
             whileInView={{ y: 0, opacity: 1 }}
           >
             Currently, I am a software engineer at{' '}
-            <a href="https://www.tegagadgets.com/">Tega Gadgets</a>, I build
-            software solutions that streamline gadget sales, swaps, and
-            purchases, enhancing the tech experience for customers across Africa
+            <a
+              className="text-white hover:underline"
+              href="https://www.tegagadgets.com/"
+            >
+              Tega Gadgets
+            </a>
+            , I build software solutions that streamline gadget sales, swaps,
+            and purchases, enhancing the tech experience for customers across
+            Africa
           </motion.p>
           <motion.p
             initial={{ y: 20, opacity: 0 }}
