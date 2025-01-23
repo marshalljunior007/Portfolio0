@@ -68,7 +68,7 @@ export default function Projects() {
             )}
             <div className="w-48 h-24 rounded-xl relative overflow-hidden border-white/20 border-[1px]">
               <Image
-                src={project.image}
+                src={project.image || '/images/placeholder.png'}
                 alt={project.name}
                 className="text-xs"
                 fill

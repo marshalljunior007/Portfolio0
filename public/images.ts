@@ -1,14 +1,10 @@
-import AppleClone from './images/Apple.png';
-import Homme from './images/Homme.png';
-import SpaceX from './images/SpaceX.png';
-import Tg from './images/Tegadgets.png';
 
 
 const images = {
-  AppleClone,
-  Homme,
-  SpaceX,
-  Tg,
+  AppleClone: '/images/Apple.png',
+  Homme: '/images/Homme.png',
+  SpaceX: '/images/SpaceX.png',
+  Tg: '/images/Tegadgets.png',
 };
 
 export default images;

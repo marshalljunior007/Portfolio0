@@ -4,7 +4,8 @@ import About from './home/About';
 import Experience from './home/Experience';
 import Projects from './home/Projects';
 import Hero from './home/Hero';
-import Footer from './home/Footer';
+import Footer from './home/Footer'
+import Writing from './home/Writing';
 
 export default function Homepage() {
   useEffect(() => {
@@ -17,12 +18,13 @@ export default function Homepage() {
       // style={{ background: 'radial-gradient(circle, #0A192F 0%, #020C1B 100%)' }}
       className="bg-background text-foreground px-5 md:px-20 md:flex md:flex-row dark:bg-background dark:text-foreground"
     >
-      <Hero />
+    <Hero />
+
       <div className="md:basis-[55%]">
         <About />
-        <Experience />
-        <Projects />
-        {/* <Writing /> */}
+       < Experience />
+        <Projects /> 
+         <Writing />
         <Footer />
       </div>
     </main>
